@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.administrator.progressdialog.main">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progess Dialog" />
+    <ProgressBar
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/first"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="gone"/>
+    <ProgressBar
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"
+        android:id="@+id/second"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="请开始你的表演"
+        />
+</LinearLayout>
